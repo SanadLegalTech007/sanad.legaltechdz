@@ -30,19 +30,19 @@ const BG_SCENES = [
     id: 0,
     gradient: "radial-gradient(ellipse at 20% 50%, #1a4a8a 0%, #0a2342 40%, #07192e 100%)",
     overlay: "linear-gradient(135deg, rgba(10,35,66,0.85) 0%, rgba(7,25,46,0.92) 100%)",
-    label: "«·„ﬂ »… «·ﬁ«‰Ê‰Ì… «·„” ﬁ»·Ì…",
+    label: "√á√°√£√ü√ä√à√â √á√°√û√á√§√¶√§√≠√â √á√°√£√ì√ä√û√à√°√≠√â",
   },
   {
     id: 1,
     gradient: "radial-gradient(ellipse at 80% 30%, #0d3a6e 0%, #0a2342 50%, #041220 100%)",
     overlay: "linear-gradient(225deg, rgba(10,35,66,0.88) 0%, rgba(4,18,32,0.95) 100%)",
-    label: "„Ì“«‰ «·⁄œ«·… «·—ﬁ„Ì…",
+    label: "√£√≠√í√á√§ √á√°√ö√è√á√°√â √á√°√ë√û√£√≠√â",
   },
   {
     id: 2,
     gradient: "radial-gradient(ellipse at 50% 80%, #1a3a6e 0%, #0a2342 45%, #060f1e 100%)",
     overlay: "linear-gradient(180deg, rgba(10,35,66,0.9) 0%, rgba(6,15,30,0.95) 100%)",
-    label: "„‰’… ”‰œ",
+    label: "√£√§√ï√â √ì√§√è",
   },
 ];
 
@@ -151,17 +151,17 @@ function LightBeams() {
 
 // ??? SIDEBAR ????????????????????????????????????????????????????
 const NAV_ITEMS = [
-  { icon: Home, label: "«·—∆Ì”Ì…", key: "home", active: true },
-  { icon: Gavel, label: "«·„Õﬂ„… «·«› —«÷Ì…", key: "court", badge: "ﬁ—Ì»«" },
-  { icon: Bot, label: "«·„”«⁄œ «·ﬁ«‰Ê‰Ì «·–ﬂÌ", key: "chat" },
-  { icon: MessageSquare, label: "«·«” ‘«—«  «·„ Œ’’…", key: "consult" },
-  { icon: FileSearch, label: " Õ·Ì· «·⁄ﬁÊœ", key: "contracts" },
-  { icon: TrendingUp, label: " ‰»ƒ ‰ «∆Ã «·ﬁ÷«Ì«", key: "predict" },
-  { icon: RefreshCw, label: "«· ÕœÌÀ «·›Ê—Ì ··ﬁÊ«‰Ì‰", key: "laws" },
-  { icon: Edit3, label: "’Ì«€… „–ﬂ—«  «· —«›⁄", key: "memos" },
-  { icon: Archive, label: "«·√—‘Ì› «·ﬁ«‰Ê‰Ì", key: "archive" },
-  { icon: Info, label: "⁄‰ «·„‰’…", key: "about" },
-  { icon: Mail, label: " Ê«’· „⁄‰«", key: "contact" },
+  { icon: Home, label: "√á√°√ë√Ü√≠√ì√≠√â", key: "home", active: true },
+  { icon: Gavel, label: "√á√°√£√ç√ü√£√â √á√°√á√ù√ä√ë√á√ñ√≠√â", key: "court", badge: "√û√ë√≠√à√á√∞" },
+  { icon: Bot, label: "√á√°√£√ì√á√ö√è √á√°√û√á√§√¶√§√≠ √á√°√ê√ü√≠", key: "chat" },
+  { icon: MessageSquare, label: "√á√°√á√ì√ä√î√á√ë√á√ä √á√°√£√ä√é√ï√ï√â", key: "consult" },
+  { icon: FileSearch, label: "√ä√ç√°√≠√° √á√°√ö√û√¶√è", key: "contracts" },
+  { icon: TrendingUp, label: "√ä√§√à√Ñ √§√ä√á√Ü√å √á√°√û√ñ√á√≠√á", key: "predict" },
+  { icon: RefreshCw, label: "√á√°√ä√ç√è√≠√ã √á√°√ù√¶√ë√≠ √°√°√û√¶√á√§√≠√§", key: "laws" },
+  { icon: Edit3, label: "√ï√≠√á√õ√â √£√ê√ü√ë√á√ä √á√°√ä√ë√á√ù√ö", key: "memos" },
+  { icon: Archive, label: "√á√°√É√ë√î√≠√ù √á√°√û√á√§√¶√§√≠", key: "archive" },
+  { icon: Info, label: "√ö√§ √á√°√£√§√ï√â", key: "about" },
+  { icon: Mail, label: "√ä√¶√á√ï√° √£√ö√§√á", key: "contact" },
 ];
 
 function Sidebar({ open, setOpen, activeNav, setActiveNav, dark }) {
@@ -281,7 +281,7 @@ function Sidebar({ open, setOpen, activeNav, setActiveNav, dark }) {
           textAlign: "center",
           fontFamily: "'Cairo', sans-serif",
         }}>
-          ”‰œ © 2025 | Ã„Ì⁄ «·ÕﬁÊﬁ „Õ›ÊŸ…
+          √ì√§√è ¬© 2025 | √å√£√≠√ö √á√°√ç√û√¶√û √£√ç√ù√¶√ô√â
         </div>
       </aside>
     </>
@@ -330,7 +330,7 @@ function Header({ dark, setDark, sidebarOpen, setSidebarOpen }) {
             color: dark ? C.white : C.navy,
             letterSpacing: "-0.3px",
             lineHeight: 1.1,
-          }}>”‰œ</div>
+          }}>√ì√§√è</div>
           <div style={{
             fontSize: 9, color: C.gold, fontFamily: "'Cairo', sans-serif",
             fontWeight: 600, letterSpacing: "0.5px",
@@ -351,7 +351,7 @@ function Header({ dark, setDark, sidebarOpen, setSidebarOpen }) {
           }}
         />
         <input
-          placeholder="«»ÕÀ ›Ì «·ﬁÊ«‰Ì‰° «·„Ê«œ° «·√Õﬂ«„..."
+          placeholder="√á√à√ç√ã √ù√≠ √á√°√û√¶√á√§√≠√§¬° √á√°√£√¶√á√è¬° √á√°√É√ç√ü√á√£..."
           onFocus={() => setSearchFocus(true)}
           onBlur={() => setSearchFocus(false)}
           style={{
@@ -418,7 +418,7 @@ function Header({ dark, setDark, sidebarOpen, setSidebarOpen }) {
           boxShadow: `0 3px 12px rgba(10,35,66,0.3)`,
           border: `2px solid ${C.gold}`,
         }}>
-          <span style={{ color: C.white, fontSize: 13, fontWeight: 700, fontFamily: "'Cairo', sans-serif" }}>„</span>
+          <span style={{ color: C.white, fontSize: 13, fontWeight: 700, fontFamily: "'Cairo', sans-serif" }}>√£</span>
         </div>
       </div>
     </header>
@@ -427,10 +427,10 @@ function Header({ dark, setDark, sidebarOpen, setSidebarOpen }) {
 
 // ??? STATS CARDS ?????????????????????????????????????????????????
 const STATS = [
-  { icon: BookOpen, label: "ﬁ«‰Ê‰ „ÕœÀ", value: "2,847", color: C.gold, sub: "¬Œ—  ÕœÌÀ: «·ÌÊ„" },
-  { icon: MessageSquare, label: "«” ‘«—… „‰Ã“…", value: "18,432", color: "#4CAF50", sub: "+234 Â–« «·√”»Ê⁄" },
-  { icon: TrendingUp, label: "œﬁ… «· ‰»ƒ« ", value: "94.7%", color: "#2196F3", sub: "‰”»… ‰Ã«Õ ⁄«·Ì…" },
-  { icon: Clock, label: "¬Œ—  ÕœÌÀ  ‘—Ì⁄Ì", value: "„‰– 3 ”«⁄« ", color: "#FF9800", sub: "«·Ã—Ìœ… «·—”„Ì…" },
+  { icon: BookOpen, label: "√û√á√§√¶√§ √£√ç√è√ã", value: "2,847", color: C.gold, sub: "√Ç√é√ë √ä√ç√è√≠√ã: √á√°√≠√¶√£" },
+  { icon: MessageSquare, label: "√á√ì√ä√î√á√ë√â √£√§√å√í√â", value: "18,432", color: "#4CAF50", sub: "+234 √•√ê√á √á√°√É√ì√à√¶√ö" },
+  { icon: TrendingUp, label: "√è√û√â √á√°√ä√§√à√Ñ√á√ä", value: "94.7%", color: "#2196F3", sub: "√§√ì√à√â √§√å√á√ç √ö√á√°√≠√â" },
+  { icon: Clock, label: "√Ç√é√ë √ä√ç√è√≠√ã √ä√î√ë√≠√ö√≠", value: "√£√§√ê 3 √ì√á√ö√á√ä", color: "#FF9800", sub: "√á√°√å√ë√≠√è√â √á√°√ë√ì√£√≠√â" },
 ];
 
 function StatCards({ dark }) {
@@ -511,13 +511,13 @@ function VirtualCourt({ dark }) {
       }}>
         <Gavel size={18} color={C.gold} />
         <span style={{ color: C.white, fontFamily: "'Cairo', sans-serif", fontSize: 14, fontWeight: 700 }}>
-          «·„Õﬂ„… «·«› —«÷Ì…
+          √á√°√£√ç√ü√£√â √á√°√á√ù√ä√ë√á√ñ√≠√â
         </span>
         <span style={{
           marginRight: "auto", fontSize: 9.5, fontWeight: 700,
           background: `linear-gradient(135deg, ${C.gold}, ${C.goldLight})`,
           color: C.navy, padding: "3px 10px", borderRadius: 20,
-        }}>ﬁ—Ì»«</span>
+        }}>√û√ë√≠√à√á√∞</span>
       </div>
 
       {/* Court scene */}
@@ -556,11 +556,11 @@ function VirtualCourt({ dark }) {
         }}>
           {/* Lawyer 1 */}
           {[
-            { size: 52, color: "#1e4a8a", label: "„Õ«„Ì", pos: -120 },
-            { size: 42, color: "#1a3a6a", label: "‘«Âœ", pos: -60 },
-            { size: 70, color: C.gold, label: "«·ﬁ«÷Ì", pos: 0, isJudge: true },
-            { size: 42, color: "#1a3a6a", label: "„ Â„", pos: 60 },
-            { size: 52, color: "#1e4a8a", label: "„Õ«„Ì", pos: 120 },
+            { size: 52, color: "#1e4a8a", label: "√£√ç√á√£√≠", pos: -120 },
+            { size: 42, color: "#1a3a6a", label: "√î√á√•√è", pos: -60 },
+            { size: 70, color: C.gold, label: "√á√°√û√á√ñ√≠", pos: 0, isJudge: true },
+            { size: 42, color: "#1a3a6a", label: "√£√ä√•√£", pos: 60 },
+            { size: 52, color: "#1e4a8a", label: "√£√ç√á√£√≠", pos: 120 },
           ].map((ch, idx) => (
             <div key={idx} style={{
               display: "flex", flexDirection: "column", alignItems: "center", gap: 6,
@@ -606,7 +606,7 @@ function VirtualCourt({ dark }) {
             <div style={{ flex: 1, background: "#006233" }} />
             <div style={{ flex: 1, background: "#ffffff" }} />
           </div>
-          <span style={{ fontSize: 9, color: "rgba(255,255,255,0.4)", fontFamily: "'Cairo', sans-serif" }}>«·Ã“«∆—</span>
+          <span style={{ fontSize: 9, color: "rgba(255,255,255,0.4)", fontFamily: "'Cairo', sans-serif" }}>√á√°√å√í√á√Ü√ë</span>
         </div>
 
         {/* COMING SOON overlay */}
@@ -623,11 +623,11 @@ function VirtualCourt({ dark }) {
               textShadow: `0 0 30px ${C.gold}88, 0 0 60px ${C.gold}44`,
               animation: "glowPulse 2s infinite",
               letterSpacing: 2,
-            }}>ﬁ—Ì»«...</div>
+            }}>√û√ë√≠√à√á√∞...</div>
             <div style={{
               fontSize: 12, color: "rgba(255,255,255,0.5)",
               fontFamily: "'Cairo', sans-serif", marginTop: 8,
-            }}>«·„Õﬂ„… «·«› —«÷Ì… »«·–ﬂ«¡ «·«’ÿ‰«⁄Ì</div>
+            }}>√á√°√£√ç√ü√£√â √á√°√á√ù√ä√ë√á√ñ√≠√â √à√á√°√ê√ü√á√Å √á√°√á√ï√ò√§√á√ö√≠</div>
           </div>
         </div>
       </div>
@@ -637,17 +637,17 @@ function VirtualCourt({ dark }) {
 
 // ??? AI CHAT ?????????????????????????????????????????????????????
 const SUGGESTED_Q = [
-  "„« ÂÌ ‘—Êÿ ⁄ﬁœ «·⁄„· ›Ì «·ﬁ«‰Ê‰ «·Ã“«∆—Ìø",
-  "ﬂÌ› √—›⁄ œ⁄ÊÏ √„«„ «·„Õﬂ„… «·≈œ«—Ì…ø",
-  "„« ÂÌ √Õﬂ«„ ﬁ«‰Ê‰ «·√”—… «·„ ⁄·ﬁ… »«·ÿ·«ﬁø",
-  "„« ÂÌ ≈Ã—«¡«   √”Ì” ‘—ﬂ… –«  „”ƒÊ·Ì… „ÕœÊœ…ø",
+  "√£√á √•√≠ √î√ë√¶√ò √ö√û√è √á√°√ö√£√° √ù√≠ √á√°√û√á√§√¶√§ √á√°√å√í√á√Ü√ë√≠¬ø",
+  "√ü√≠√ù √É√ë√ù√ö √è√ö√¶√¨ √É√£√á√£ √á√°√£√ç√ü√£√â √á√°√Ö√è√á√ë√≠√â¬ø",
+  "√£√á √•√≠ √É√ç√ü√á√£ √û√á√§√¶√§ √á√°√É√ì√ë√â √á√°√£√ä√ö√°√û√â √à√á√°√ò√°√á√û¬ø",
+  "√£√á √•√≠ √Ö√å√ë√á√Å√á√ä √ä√É√ì√≠√ì √î√ë√ü√â √ê√á√ä √£√ì√Ñ√¶√°√≠√â √£√ç√è√¶√è√â¬ø",
 ];
 
 const INITIAL_MESSAGES = [
   {
     role: "ai",
-    text: "„—Õ»«! √‰« ”‰œ° „”«⁄œﬂ «·ﬁ«‰Ê‰Ì «·–ﬂÌ «·„ Œ’’ ›Ì «· ‘—Ì⁄«  «·Ã“«∆—Ì…. ﬂÌ› Ì„ﬂ‰‰Ì „”«⁄œ ﬂ «·ÌÊ„ø",
-    time: "«·¬‰",
+    text: "√£√ë√ç√à√á√∞! √É√§√á √ì√§√è¬° √£√ì√á√ö√è√ü √á√°√û√á√§√¶√§√≠ √á√°√ê√ü√≠ √á√°√£√ä√é√ï√ï √ù√≠ √á√°√ä√î√ë√≠√ö√á√ä √á√°√å√í√á√Ü√ë√≠√â. √ü√≠√ù √≠√£√ü√§√§√≠ √£√ì√á√ö√è√ä√ü √á√°√≠√¶√£¬ø",
+    time: "√á√°√Ç√§",
   },
 ];
 
@@ -659,7 +659,7 @@ function AIChat({ dark }) {
 
   const send = async (text) => {
     if (!text.trim()) return;
-    const userMsg = { role: "user", text: text.trim(), time: "«·¬‰" };
+    const userMsg = { role: "user", text: text.trim(), time: "√á√°√Ç√§" };
     setMessages(prev => [...prev, userMsg]);
     setInput("");
     setTyping(true);
@@ -671,18 +671,18 @@ function AIChat({ dark }) {
         body: JSON.stringify({
           model: "claude-sonnet-4-20250514",
           max_tokens: 1000,
-          system: "√‰  „”«⁄œ ﬁ«‰Ê‰Ì –ﬂÌ „ Œ’’ ›Ì «·ﬁ«‰Ê‰ «·Ã“«∆—Ì. √Ã» »‘ﬂ· „Â‰Ì ÊœﬁÌﬁ »«··€… «·⁄—»Ì…. «–ﬂ— «·„Ê«œ «·ﬁ«‰Ê‰Ì… Ê«·„—«Ã⁄ «· ‘—Ì⁄Ì… ⁄‰œ «·≈„ﬂ«‰. ﬂ‰ „ÊÃ“« Ê„›Ìœ«.",
+          system: "√É√§√ä √£√ì√á√ö√è √û√á√§√¶√§√≠ √ê√ü√≠ √£√ä√é√ï√ï √ù√≠ √á√°√û√á√§√¶√§ √á√°√å√í√á√Ü√ë√≠. √É√å√à √à√î√ü√° √£√•√§√≠ √¶√è√û√≠√û √à√á√°√°√õ√â √á√°√ö√ë√à√≠√â. √á√ê√ü√ë √á√°√£√¶√á√è √á√°√û√á√§√¶√§√≠√â √¶√á√°√£√ë√á√å√ö √á√°√ä√î√ë√≠√ö√≠√â √ö√§√è √á√°√Ö√£√ü√á√§. √ü√§ √£√¶√å√í√á√∞ √¶√£√ù√≠√è√á√∞.",
           messages: [{ role: "user", content: text.trim() }],
         }),
       });
       const data = await response.json();
-      const aiText = data.content?.[0]?.text || "⁄–—«° ·„ √ „ﬂ‰ „‰ «·≈Ã«»… ›Ì «·Êﬁ  «·Õ«·Ì.";
-      setMessages(prev => [...prev, { role: "ai", text: aiText, time: "«·¬‰" }]);
+      const aiText = data.content?.[0]?.text || "√ö√ê√ë√á√∞¬° √°√£ √É√ä√£√ü√§ √£√§ √á√°√Ö√å√á√à√â √ù√≠ √á√°√¶√û√ä √á√°√ç√á√°√≠.";
+      setMessages(prev => [...prev, { role: "ai", text: aiText, time: "√á√°√Ç√§" }]);
     } catch {
       setMessages(prev => [...prev, {
         role: "ai",
-        text: "⁄–—«° ÕœÀ Œÿ√ ›Ì «·« ’«·. Ì—ÃÏ «·„Õ«Ê·… „—… √Œ—Ï.",
-        time: "«·¬‰",
+        text: "√ö√ê√ë√á√∞¬° √ç√è√ã √é√ò√É √ù√≠ √á√°√á√ä√ï√á√°. √≠√ë√å√¨ √á√°√£√ç√á√¶√°√â √£√ë√â √É√é√ë√¨.",
+        time: "√á√°√Ç√§",
       }]);
     }
     setTyping(false);
@@ -723,11 +723,11 @@ function AIChat({ dark }) {
         </div>
         <div>
           <div style={{ fontSize: 13.5, fontWeight: 700, color: dark ? C.white : C.navy, fontFamily: "'Cairo', sans-serif" }}>
-            «·„”«⁄œ «·ﬁ«‰Ê‰Ì «·–ﬂÌ
+            √á√°√£√ì√á√ö√è √á√°√û√á√§√¶√§√≠ √á√°√ê√ü√≠
           </div>
           <div style={{ fontSize: 10.5, color: "#4CAF50", fontFamily: "'Cairo', sans-serif", display: "flex", alignItems: "center", gap: 4 }}>
             <span style={{ width: 6, height: 6, borderRadius: "50%", background: "#4CAF50", display: "inline-block" }} />
-            „ «Õ «·¬‰
+            √£√ä√á√ç √á√°√Ç√§
           </div>
         </div>
       </div>
@@ -841,7 +841,7 @@ function AIChat({ dark }) {
           value={input}
           onChange={e => setInput(e.target.value)}
           onKeyDown={e => e.key === "Enter" && !e.shiftKey && send(input)}
-          placeholder="«”√· ⁄‰ √Ì „«œ… ﬁ«‰Ê‰Ì… Ã“«∆—Ì…..."
+          placeholder="√á√ì√É√° √ö√§ √É√≠ √£√á√è√â √û√á√§√¶√§√≠√â √å√í√á√Ü√ë√≠√â..."
           style={{
             flex: 1, padding: "10px 14px", borderRadius: 12,
             border: `1.5px solid ${dark ? "rgba(255,255,255,0.1)" : "rgba(10,35,66,0.12)"}`,
@@ -873,13 +873,13 @@ function AIChat({ dark }) {
 
 // ??? CONSULTATIONS ???????????????????????????????????????????????
 const CONSULT_AREAS = [
-  { icon: Shield, label: "«·ﬁ«‰Ê‰ «·Ã‰«∆Ì", desc: "«·Ã—«∆„° «·⁄ﬁÊ»« ° «·≈Ã—«¡«  «·Ã“«∆Ì…", color: "#e53935" },
-  { icon: Users, label: "ﬁ«‰Ê‰ «·√”—…", desc: "«·“Ê«Ã° «·ÿ·«ﬁ° «·Õ÷«‰…° «·„Ì—«À", color: "#7b1fa2" },
-  { icon: Building2, label: "«·ﬁ«‰Ê‰ «·≈œ«—Ì", desc: "«·ÿ⁄Ê‰° «·„‰«“⁄«  «·≈œ«—Ì…° «·„—«›ﬁ «·⁄«„…", color: "#1565c0" },
-  { icon: FileText, label: "«·’›ﬁ«  «·⁄„Ê„Ì…", desc: "≈»—«„ «·⁄ﬁÊœ° «· ÕﬂÌ„° «·„‰«“⁄« ", color: C.gold },
-  { icon: Briefcase, label: "«·ﬁ«‰Ê‰ «· Ã«—Ì", desc: "«·‘—ﬂ« ° «·≈›·«”° «·„·ﬂÌ… «· Ã«—Ì…", color: "#2e7d32" },
-  { icon: Scale, label: "„‰«“⁄«  «·⁄„·", desc: "⁄ﬁÊœ «·⁄„·° «· ”—ÌÕ° «·÷„«‰ «·«Ã „«⁄Ì", color: "#f57c00" },
-  { icon: Landmark, label: "«·⁄ﬁ«—", desc: "«·„·ﬂÌ…° «· ”ÃÌ·° ‰“«⁄«  «·√—«÷Ì", color: "#00838f" },
+  { icon: Shield, label: "√á√°√û√á√§√¶√§ √á√°√å√§√á√Ü√≠", desc: "√á√°√å√ë√á√Ü√£¬° √á√°√ö√û√¶√à√á√ä¬° √á√°√Ö√å√ë√á√Å√á√ä √á√°√å√í√á√Ü√≠√â", color: "#e53935" },
+  { icon: Users, label: "√û√á√§√¶√§ √á√°√É√ì√ë√â", desc: "√á√°√í√¶√á√å¬° √á√°√ò√°√á√û¬° √á√°√ç√ñ√á√§√â¬° √á√°√£√≠√ë√á√ã", color: "#7b1fa2" },
+  { icon: Building2, label: "√á√°√û√á√§√¶√§ √á√°√Ö√è√á√ë√≠", desc: "√á√°√ò√ö√¶√§¬° √á√°√£√§√á√í√ö√á√ä √á√°√Ö√è√á√ë√≠√â¬° √á√°√£√ë√á√ù√û √á√°√ö√á√£√â", color: "#1565c0" },
+  { icon: FileText, label: "√á√°√ï√ù√û√á√ä √á√°√ö√£√¶√£√≠√â", desc: "√Ö√à√ë√á√£ √á√°√ö√û√¶√è¬° √á√°√ä√ç√ü√≠√£¬° √á√°√£√§√á√í√ö√á√ä", color: C.gold },
+  { icon: Briefcase, label: "√á√°√û√á√§√¶√§ √á√°√ä√å√á√ë√≠", desc: "√á√°√î√ë√ü√á√ä¬° √á√°√Ö√ù√°√á√ì¬° √á√°√£√°√ü√≠√â √á√°√ä√å√á√ë√≠√â", color: "#2e7d32" },
+  { icon: Scale, label: "√£√§√á√í√ö√á√ä √á√°√ö√£√°", desc: "√ö√û√¶√è √á√°√ö√£√°¬° √á√°√ä√ì√ë√≠√ç¬° √á√°√ñ√£√á√§ √á√°√á√å√ä√£√á√ö√≠", color: "#f57c00" },
+  { icon: Landmark, label: "√á√°√ö√û√á√ë", desc: "√á√°√£√°√ü√≠√â¬° √á√°√ä√ì√å√≠√°¬° √§√í√á√ö√á√ä √á√°√É√ë√á√ñ√≠", color: "#00838f" },
 ];
 
 function Consultations({ dark }) {
@@ -893,7 +893,7 @@ function Consultations({ dark }) {
         <h2 style={{
           fontSize: 16, fontWeight: 800, color: dark ? C.white : C.navy,
           fontFamily: "'Cairo', sans-serif", margin: 0,
-        }}>«·«” ‘«—«  «·ﬁ«‰Ê‰Ì… «·„ Œ’’…</h2>
+        }}>√á√°√á√ì√ä√î√á√ë√á√ä √á√°√û√á√§√¶√§√≠√â √á√°√£√ä√é√ï√ï√â</h2>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: 12 }}>
         {CONSULT_AREAS.map((area, i) => {
@@ -949,7 +949,7 @@ function Consultations({ dark }) {
                 onMouseEnter={e => e.currentTarget.style.background = `linear-gradient(135deg, ${C.gold}, ${C.goldLight})`}
                 onMouseLeave={e => e.currentTarget.style.background = `linear-gradient(135deg, ${C.navy}ee, ${C.navyLight})`}
               >
-                <span>«»œ√ «·«” ‘«—…</span>
+                <span>√á√à√è√É √á√°√á√ì√ä√î√á√ë√â</span>
                 <ArrowRight size={12} style={{ transform: "scaleX(-1)" }} />
               </button>
             </div>
@@ -963,10 +963,10 @@ function Consultations({ dark }) {
 // ??? QUICK ACTIONS ???????????????????????????????????????????????
 function QuickActions({ dark }) {
   const actions = [
-    { icon: Edit3, label: "’Ì«€… „–ﬂ—… «Õ —«›Ì…", color: C.gold },
-    { icon: FileSearch, label: " Õ·Ì· ⁄ﬁœ", color: "#2196F3" },
-    { icon: Zap, label: "«” ‘«—… ›Ê—Ì…", color: "#4CAF50" },
-    { icon: BookMarked, label: "«·»ÕÀ ›Ì «· ‘—Ì⁄« ", color: "#9C27B0" },
+    { icon: Edit3, label: "√ï√≠√á√õ√â √£√ê√ü√ë√â √á√ç√ä√ë√á√ù√≠√â", color: C.gold },
+    { icon: FileSearch, label: "√ä√ç√°√≠√° √ö√û√è", color: "#2196F3" },
+    { icon: Zap, label: "√á√ì√ä√î√á√ë√â √ù√¶√ë√≠√â", color: "#4CAF50" },
+    { icon: BookMarked, label: "√á√°√à√ç√ã √ù√≠ √á√°√ä√î√ë√≠√ö√á√ä", color: "#9C27B0" },
   ];
   return (
     <div style={{
@@ -1020,10 +1020,10 @@ function QuickActions({ dark }) {
 // ??? LAW UPDATE TICKER ???????????????????????????????????????????
 function LawTicker({ dark }) {
   const updates = [
-    "??  ÕœÌÀ: «·„—”Ê„ «· ‰›Ì–Ì —ﬁ„ 25-112 ó ﬁ«‰Ê‰ «·’›ﬁ«  «·⁄„Ê„Ì…",
-    "?? ÃœÌœ:  ⁄œÌ· «·„«œ… 47 „‰ ﬁ«‰Ê‰ «·⁄„· ó —›⁄ «·Õœ «·√œ‰Ï ··√ÃÊ—",
-    "??  ÕœÌÀ: ﬁ«‰Ê‰ «·√”—… ó  ⁄œÌ·«  ≈Ã—«¡«  «·ÿ·«ﬁ √„«„ «·„Õ«ﬂ„",
-    "?? ‰‘—…: «·Ã—Ìœ… «·—”„Ì… «·⁄œœ 34 ó ﬁÊ«‰Ì‰ «·÷—Ì»… ⁄·Ï «·œŒ·",
+    "?? √ä√ç√è√≠√ã: √á√°√£√ë√ì√¶√£ √á√°√ä√§√ù√≠√ê√≠ √ë√û√£ 25-112 ¬ó √û√á√§√¶√§ √á√°√ï√ù√û√á√ä √á√°√ö√£√¶√£√≠√â",
+    "?? √å√è√≠√è: √ä√ö√è√≠√° √á√°√£√á√è√â 47 √£√§ √û√á√§√¶√§ √á√°√ö√£√° ¬ó √ë√ù√ö √á√°√ç√è √á√°√É√è√§√¨ √°√°√É√å√¶√ë",
+    "?? √ä√ç√è√≠√ã: √û√á√§√¶√§ √á√°√É√ì√ë√â ¬ó √ä√ö√è√≠√°√á√ä √Ö√å√ë√á√Å√á√ä √á√°√ò√°√á√û √É√£√á√£ √á√°√£√ç√á√ü√£",
+    "?? √§√î√ë√â: √á√°√å√ë√≠√è√â √á√°√ë√ì√£√≠√â √á√°√ö√è√è 34 ¬ó √û√¶√á√§√≠√§ √á√°√ñ√ë√≠√à√â √ö√°√¨ √á√°√è√é√°",
   ];
   return (
     <div style={{
@@ -1043,7 +1043,7 @@ function LawTicker({ dark }) {
         color: C.navy, fontFamily: "'Cairo', sans-serif",
         whiteSpace: "nowrap",
       }}>
-        ¬Œ— «· ÕœÌÀ« 
+        √Ç√é√ë √á√°√ä√ç√è√≠√ã√á√ä
       </div>
       <div style={{ overflow: "hidden", flex: 1 }}>
         <div style={{
@@ -1052,7 +1052,7 @@ function LawTicker({ dark }) {
           whiteSpace: "nowrap",
           animation: "marqueeRTL 28s linear infinite",
         }}>
-          {updates.join("  ï  ")}
+          {updates.join("  ¬ï  ")}
         </div>
       </div>
       <style>{`
@@ -1100,20 +1100,20 @@ function WelcomeBanner({ dark }) {
             fontWeight: 700, letterSpacing: 1, marginBottom: 6,
             textTransform: "uppercase",
           }}>
-            ÕÌÀ  ﬂ „· «·ÕÃ… ÊÌ” ﬁÌ„ «·œ·Ì·
+            √ç√≠√ã √ä√ü√ä√£√° √á√°√ç√å√â √¶√≠√ì√ä√û√≠√£ √á√°√è√°√≠√°
           </div>
           <h1 style={{
             fontSize: 28, fontWeight: 900, color: C.white,
             fontFamily: "'Cairo', sans-serif", margin: "0 0 8px",
             lineHeight: 1.2,
           }}>
-            „—Õ»« »ﬂ ›Ì „‰’… <span style={{ color: C.gold }}>”‰œ</span>
+            √£√ë√ç√à√á√∞ √à√ü √ù√≠ √£√§√ï√â <span style={{ color: C.gold }}>√ì√§√è</span>
           </h1>
           <p style={{
             fontSize: 13.5, color: "rgba(255,255,255,0.65)",
             fontFamily: "'Cairo', sans-serif", margin: 0, lineHeight: 1.7,
           }}>
-            „‰’ ﬂ «·ﬁ«‰Ê‰Ì… «·–ﬂÌ… ·· ‘—Ì⁄«  «·Ã“«∆—Ì… ó »ÕÀ°  Õ·Ì·° Ê«” ‘«—… ›Ê—Ì… » ﬁ‰Ì… «·–ﬂ«¡ «·«’ÿ‰«⁄Ì
+            √£√§√ï√ä√ü √á√°√û√á√§√¶√§√≠√â √á√°√ê√ü√≠√â √°√°√ä√î√ë√≠√ö√á√ä √á√°√å√í√á√Ü√ë√≠√â ¬ó √à√ç√ã¬° √ä√ç√°√≠√°¬° √¶√á√ì√ä√î√á√ë√â √ù√¶√ë√≠√â √à√ä√û√§√≠√â √á√°√ê√ü√á√Å √á√°√á√ï√ò√§√á√ö√≠
           </p>
         </div>
 
